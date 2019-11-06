@@ -1,0 +1,26 @@
+{
+	"name": "lqip-image",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sanishkr/lqip-image.git"
+	},
+	"author": "sns",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/sanishkr/lqip-image/issues"
+	},
+	"homepage": "https://github.com/sanishkr/lqip-image#readme",
+	"dependencies": {
+		"next": "^9.1.2",
+		"react": "^16.11.0",
+		"react-dom": "^16.11.0"
+	}
+}
