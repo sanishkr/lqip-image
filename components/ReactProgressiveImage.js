@@ -6,8 +6,7 @@ export default () => {
 			// delay={3000}
 			srcSetData={{
 				srcSet:
-					'https://rukminim1.flixcart.com/flap/320/320/image/31efaad41a3e4208.jpg?q=50 320w, https://rukminim1.flixcart.com/flap/480/480/image/31efaad41a3e4208.jpg?q=50 700w, https://rukminim1.flixcart.com/flap/960/960/image/31efaad41a3e4208.jpg?q=50 2000w',
-				sizes: '(max-width: 2000px) 100vw, 2000px'
+					'https://rukminim1.flixcart.com/flap/480/480/image/31efaad41a3e4208.jpg?q=50 1x, https://rukminim1.flixcart.com/flap/960/960/image/31efaad41a3e4208.jpg?q=50 2x'
 			}}
 			src="https://rukminim1.flixcart.com/flap/480/480/image/31efaad41a3e4208.jpg?q=50"
 			placeholder="https://rukminim1.flixcart.com/flap/50/50/image/31efaad41a3e4208.jpg?q=50"
@@ -29,7 +28,7 @@ export default () => {
 						filter: loading ? 'blur(15px)' : 'blur(0px)'
 					}}
 					srcSet={srcSetData.srcSet}
-					sizes={srcSetData.sizes}
+					// sizes={srcSetData.sizes}
 					src={src}
 					alt="an image"
 				/>
